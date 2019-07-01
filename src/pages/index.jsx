@@ -112,12 +112,29 @@ const Index = () => (
           <Title>Talk to me!</Title>
           <ContactText>
             Drop me an <a href="mailto:kelokchan@gmail.com">email</a> or reach me on:{' '}
-            <a href="https://www.linkedin.com/in/kelokchan/">LinkedIn</a> &{' '}
-            <a href="https://github.com/kelokchan">GitHub</a>
+            <a href="https://www.linkedin.com/in/kelokchan/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>{' '}
+            &{' '}
+            <a href="https://github.com/kelokchan" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+            .
+          </ContactText>
+          <ContactText>
+            You may also view my resume{' '}
+            <a
+              href="https://drive.google.com/file/d/1UFXIWErj2RrMndPu6sOPTnMDb4MJyAJI/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              here
+            </a>
+            .
           </ContactText>
         </Inner>
         <Footer>
-          &copy; {currentYear} by Gatsby Starter Portfolio Cara. All credit goes to{' '}
+          Disclaimer &copy; {currentYear} by Gatsby Starter Portfolio Cara. All credit goes to{' '}
           <a href="https://www.lekoarts.de">LekoArts</a>.
         </Footer>
       </Contact>
